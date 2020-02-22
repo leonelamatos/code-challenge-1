@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Steeper Form</title>
+		<link rel="stylesheet" href="/style.css" />
+	</head>
+	<body>
+		<section class="wrapper">
+			<h1 class="title">Stepper Form</h1>
+
+			<div class="dots-container">
+				<div id="step-1" class="dot current-dot"></div>
+				<div id="step-2" class="dot"></div>
+				<div id="step-3" class="dot"></div>
+			</div>
+
+			<div class="inputs-container">
+				<div class="step current">
+					<input id="name-input" placeholder="enter your name" />
+					<button class="next-button">Next</button>
+				</div>
+				<div class="step hide">
+					<button class="prev-button">Preview</button>
+					<input id="age-input" placeholder="enter your age" />
+					<button class="next-button">Next</button>
+				</div>
+				<div class="step hide">
+					<button class="prev-button">Preview</button>
+					<input
+						id="question-input"
+						placeholder="how tall are you?"
+					/>
+					<button id="submit" class="next-button">Submit</button>
+				</div>
+			</div>
+		</section>
+
+		<script src="/script.js"></script>
+	</body>
+</html>
