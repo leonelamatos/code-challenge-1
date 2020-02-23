@@ -5,7 +5,6 @@ let steps = [...document.querySelectorAll('.step')];
 let dots = [...document.querySelectorAll('.dot')];
 
 const MAX_STEP = 3;
-const MIN_STEP = 1;
 
 let currentStep = 1;
 
